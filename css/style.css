@@ -5,12 +5,15 @@
 }
 
 .container {
-  /* background-image: url(../imgs/Match_04.png); */
   background-size: cover;
   width: 300px;
   height: 600px;
   font-family: "Roboto";
-  /* padding: 51px 28px 0; */
+}
+
+.first_banner {
+  background-image: url(../imgs/Match_04.png);
+  padding: 51px 28px 27px;
 }
 
 .title {
@@ -40,9 +43,10 @@
 
 .imgs {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 14px;
-  grid-row-gap: 15px;
+  grid-template-columns: 126.5px 126.5px;
+  grid-template-rows: 130px 130px 130px;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
 }
 
 .btn {
@@ -59,6 +63,7 @@
   width: 300px;
   height: 600px;
   padding: 50px 0;
+  text-align: center;
 }
 
 .title span {
@@ -74,4 +79,6 @@
   padding: 5px 50px;
   color: #fff;
   background-color: #ff1e27;
+  border: none;
+  cursor: pointer;
 }
