@@ -9,11 +9,15 @@
   width: 300px;
   height: 600px;
   font-family: "Roboto";
+  overflow: hidden;
 }
 
 .first_banner {
   background-image: url(../imgs/Match_04.png);
   padding: 51px 28px 27px;
+  opacity: 1;
+  position: relative;
+  z-index: 2;
 }
 
 .title {
@@ -60,6 +64,10 @@
 
 .second_banner {
   background-image: url(../imgs/Match_05.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
   width: 300px;
   height: 600px;
   padding: 50px 0;
@@ -81,4 +89,34 @@
   background-color: #ff1e27;
   border: none;
   cursor: pointer;
+}
+
+.slide-out-bottom {
+  -webkit-animation: slide-out-bottom 4s ease-in both;
+  animation: slide-out-bottom 4s ease-in both;
+}
+
+@-webkit-keyframes slide-out-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(1000px);
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+}
+@keyframes slide-out-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(1000px);
+    transform: translateY(1000px);
+    opacity: 0;
+  }
 }
