@@ -51,10 +51,12 @@
   grid-template-rows: 130px 130px 130px;
   grid-column-gap: 0;
   grid-row-gap: 0;
+  align-items: center;
 }
 
 .btn {
   width: 115px;
+  margin: 0 auto;
   /* border: 1px solid; */
 }
 
@@ -89,11 +91,12 @@
   background-color: #ff1e27;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .slide-out-bottom {
-  -webkit-animation: slide-out-bottom 4s ease-in both;
-  animation: slide-out-bottom 4s ease-in both;
+  -webkit-animation: slide-out-bottom 2s ease-in both;
+  animation: slide-out-bottom 2s ease-in both;
 }
 
 @-webkit-keyframes slide-out-bottom {
