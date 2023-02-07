@@ -28,8 +28,6 @@
   text-transform: uppercase;
   color: #2d8957;
   text-shadow: 0.910868px 0.910868px 3.64347px #3cba85;
-  /* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
-  /* -webkit-text-stroke: 2px white; */
 }
 
 .subtitle {
@@ -57,7 +55,6 @@
 .btn {
   width: 115px;
   margin: 0 auto;
-  /* border: 1px solid; */
 }
 
 .btn:focus {
@@ -89,9 +86,13 @@
   padding: 5px 50px;
   color: #fff;
   background-color: #ff1e27;
-  border: none;
+  border: 2px solid white;
   cursor: pointer;
   text-decoration: none;
+}
+
+.second_banner .title {
+  margin-bottom: 14px;
 }
 
 .slide-out-bottom {

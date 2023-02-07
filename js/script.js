@@ -5,6 +5,4 @@ const startAnimation = () => {
   first_banner.classList.add("slide-out-bottom");
 };
 
-function setAnimation() {
-  setTimeout("startAnimation()", 4000);
-}
+setTimeout("startAnimation()", 4000);
